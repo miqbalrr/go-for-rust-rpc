@@ -1,6 +1,6 @@
 # Go for Rust RPC
 
-Simple service to access golang and rust via RPC
+Simple service to communicate between GOLANG and RUST via RPC
 
 ## Usage
 
