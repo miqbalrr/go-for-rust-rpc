@@ -1,0 +1,19 @@
+syntax = "proto3";
+package simple;
+
+option go_package = "golang/pb/;simple";
+
+service SimpleService {
+    rpc WhereAmI(Address) returns (Location);
+}
+
+message Address {
+    string name = 1;
+}
+
+message Location {
+    string name = 1;
+    string server_name = 2;
+    string timestamp = 3;
+}
+
